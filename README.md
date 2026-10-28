@@ -46,6 +46,18 @@ NF-e invoices issued directly from the order (via the Focus NF-e API), accounts 
 - Excel export
 - Subscription plans (Bronze, Silver, Gold) with a 14-day free trial
 
+## Inside the app
+
+The production board in the ERP itself: service orders split by stage (approval, scheduled, production, finished, delivered), with priority tags and due dates.
+
+![Production board inside the app](docs/06-app-kanban.png)
+
+Orders and service orders, with value, status, late-delivery warnings, Excel export and quick actions.
+
+![Orders inside the app](docs/07-app-orders.png)
+
+*Screens from the test environment.*
+
 ## Architecture
 
 ```mermaid
